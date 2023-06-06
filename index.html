@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container1">
+        <nav class="nav">
+            <div id="logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <div class="nav__links link">
+                <a href="#about-us" class="link__item">About us</a>
+                <a href="#products" class="link__item">Products</a>
+                <a href="#klients" class="link__item">Klients</a>
+                <a href="#Comments" class="link__item">Comments</a>
+            </div>
+            <button class="nav__button">
+                <a href="">Sign up</a>
+            </button>
+            <div class="hamb">
+                <div class="hamb__field" id="hamb">
+                    <span class="bar"></span> <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <!-- <img src="img/burger.svg" alt="burger"> -->
+            </div>
+        </nav>
+    </div>
+    <div class="popup" id="popup">
+        <h3 class="h371" id="h3711"><a href="#about-us">About Us</a></h3>
+        <h3 class="h371" id="h3711"><a href="#products" class="link__item">Products</a></h3>
+        <h3 class="h371" id="h3711"><a href="#klients" class="link__item">Klients</a></h3>
+        <h3 class="h371" id="h3711"><a href="#Comments" class="link__item">Comments</a></h3>
+    </div>
+    <section>
+        <div class="container1">
+            <div class="sec1">
+                <div id="levo1">
+                    <img src="img/1.png" alt="">
+                </div>
+                <div id="pravo1">
+                    <h1 class="h1j">Natural Products For Best Results</h1>
+                    <p class="p">Niche market user experience handshake stock learning curve  crowdfunding new option.</p>
+                    <h3 id="kras">Buy now</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sec2" id="about-us">
+        <img id="pc1" src="img/21.png" alt="">
+        <div class="sec21">
+            <h1 class="h1shc">Affordable, Gorgeous And Beauty Of Our Service</h1>
+            <p class="p">Beta return on investment agile development stock iteration Scrum project launch party.</p>
+            <button class="knopka2" id="knopka2">Learn more</button>
+        </div>
+        <img id="pc2" src="img/22.png" alt="">
+    </div>
+
+    <div class="container2">
+        <div class="box">
+            <div class="kn">New Design</div>
+            <div class="content">
+                <p id="hhhh">New design is a must for any brand. We are a young, 
+                    growing company in the fashion industry, but at the heart of 
+                    our work is the experience of hundreds of employees. Our creams 
+                    contain all the best qualities that only the best can muster. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec4" id="products">
+        <!-- Control buttons -->
+        <div id="myBtnContainer">
+            <h1 class="h1shc" id="h1s4">New products</h1>
+            <button class="btn active" onclick="filterSelection('All')"> All</button>
+            <button class="btn" onclick="filterSelection('Bestsales')">Best sales</button>
+            <button class="btn" onclick="filterSelection('Mostpopular')">Most popular</button>
+        </div>
+        
+        <!-- Фильтруемые элементы. Примечание что некоторые из них имеют несколько имен классов (это может быть использовано, если они принадлежат к нескольким категориям) -->
+        <div class="container">
+            <div class="filterDiv All Bestsales"><img src="img/41.png" alt=""></div>
+            <div class="filterDiv All Mostpopular"><img src="img/42.png" alt=""></div>
+            <div class="filterDiv All Bestsales"><img src="img/43.png" alt=""></div>
+            <div class="filterDiv All Mostpopular"><img src="img/44.png" alt=""></div>
+            <div class="filterDiv All Bestsales Mostpopular"><img src="img/45.png" alt=""></div>
+            <div class="filterDiv All Mostpopular"><img src="img/46.png" alt=""></div>
+            <div class="filterDiv All Mostpopular"><img src="img/47.png" alt=""></div>
+            <div class="filterDiv All Mostpopular"><img src="img/48.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="sec5" id="klients">
+        <h1 class="h1bel">Before & After Face</h1>
+        <div class="slider">
+            <a class="previous" onclick="previousSlide()">&#10094;</a>
+            <!-- Первый слайд -->
+            <div class="item">
+                <img src="img/51.png">
+            </div>
+            <!-- Второй слайд -->
+            <div class="item">
+                <img src="img/52.png">
+            </div>
+            <!-- Третий слайд -->
+            <div class="item">
+                <img src="img/53.png">
+            </div>
+            <!-- Кнопки-стрелочки -->
+            
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+    </div>
+
+    <div class="container1" id="Comments">
+        <div class="sec6">
+            <h1 class="h1jel">What Our Customers Say About Us</h1>
+            <div class="tabs">
+                <div class="tabs__nav">
+                    <button class="tabs__btn tabs__btn_active">Comment  1</button>
+                    <button class="tabs__btn">Comment  2</button>
+                    <button class="tabs__btn">Comment  3</button>
+                </div>
+                <div class="tabs__content">
+                    <div class="tabs__pane tabs__pane_show">
+                        <img class="img6" src="img/61.png" alt="">
+                        <h3 class="h3">selina lofez</h3>
+                        <p class="p61">financing ownership business-to-business analytics strategy stock. Strategy burn rate market funding angel investor virality advisor marketing source launch party ecosystem research.</p>
+                    </div>
+                    <div class="tabs__pane">
+                        <img class="img6" src="img/62.png" alt="">
+                        <h3 class="h3">auntony gomez</h3>
+                        <p class="p61">financing ownership business-to-business analytics strategy stock. Strategy burn rate market funding angel investor virality advisor marketing source launch party ecosystem research.</p>
+                    </div>
+                    <div class="tabs__pane" id="content-3">
+                        <img class="img6" src="img/63.png" alt="">
+                        <h3 class="h3">Maria Shamilidze</h3>
+                        <p class="p61">financing ownership business-to-business analytics strategy stock. Strategy burn rate market funding angel investor virality advisor marketing source launch party ecosystem research.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec71">
+        <div class="sec72">
+            <div id="bl71">
+                <h3 class="h371">Our Service</h3>
+                <p class="p77">Home</p>
+                <p class="p77">About Us</p>
+                <p class="p77">Products</p>
+                <p class="p77">Testimonials</p>
+            </div>
+            <div id="bl72">
+                <h3 class="h371">Address</h3>
+                <p class="p77">milanjack39@gmail.com</p>
+                <p class="p77">(603) 555-0123</p>
+                <p class="p77">6391 Elgin St. Celina,</p>
+            </div>
+            <div id="bl73">
+                <h3 class="h371">Social Medial</h3>
+                <p class="p77">facebook</p>
+                <p class="p77">twitter</p>
+                <p class="p77">linkedin</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="cookie_notification">
+        <p class="p61">
+            Unfortunately, the service is currently unavailable.  Our team is working right now to improve the service to make it even more convenient. Thank you for understanding!
+        </p>
+        <button class="button cookie_accept" id="good">Good</button>
+    </div>
+
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
